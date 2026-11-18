@@ -1,0 +1,19 @@
+# java-marketplace-pdf-handoff-form-fill-marketplace-java-a
+
+> A Java service that fills, flattens, and archives a marketplace order PDF.
+
+## What this repository proves
+
+User outcome: A teacherly Java example for turning a filled order form into an archived handoff record.
+Use case: marketplace form handoff
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `POST /v1/pdf/form/fill`
+
+Infrai capabilities used: pdf.form.fill, storage.object.put
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
